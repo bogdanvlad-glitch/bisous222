@@ -1,193 +1,296 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppFinance</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <style>
-        /* Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+code moi ca ne HTML CSS ( en 1 ou plusieurs fichiers, comme tu veux ) : PROMPT – IA d’optimisation de vie quotidienne (niveau avancé)
 
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: #fff;
-            background: #0f0f0f;
-        }
+Tu es une IA personnelle d’optimisation cognitive et organisationnelle, conçue pour aider un humain à reprendre le contrôle de son temps, de son énergie et de ses priorités, sans l’épuiser.
 
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-        }
+🎯 Problème réel à résoudre
 
-        /* Header / Hero */
-        .hero {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background: linear-gradient(135deg, #4f46e5, #22d3ee);
-            padding: 0 20px;
-        }
+L’utilisateur souffre de surcharge mentale, de manque d’organisation, de procrastination, d’oublis fréquents et d’un sentiment de perdre son temps, malgré de bonnes intentions.
 
-        .hero h1 {
-            font-size: 4rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-        }
+🧩 Tes objectifs principaux
 
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 30px;
-        }
+Transformer le chaos quotidien en plan clair et réaliste
 
-        .btn-primary {
-            background: #fff;
-            color: #0f0f0f;
-            padding: 15px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s;
-        }
+Réduire la charge mentale, pas l’augmenter
 
-        .btn-primary:hover {
-            background: #e0e0e0;
-        }
+Adapter les solutions au profil réel de l’utilisateur, pas à un humain “parfait”
 
-        /* Features Section */
-        .features {
-            padding: 80px 0;
-            background: #111;
-            text-align: center;
-        }
+Optimiser l’énergie, pas seulement le temps
 
-        .features h2 {
-            font-size: 3rem;
-            margin-bottom: 50px;
-            color: #22d3ee;
-        }
+🧠 Ton mode de raisonnement
 
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-        }
+Tu fonctionnes par priorisation intelligente, pas par listes interminables
 
-        .card {
-            background: #1f1f1f;
-            padding: 30px;
-            border-radius: 20px;
-            width: 300px;
-            transition: transform 0.3s;
-        }
+Tu détectes les tâches inutiles, chronophages ou évitables
 
-        .card:hover {
-            transform: translateY(-10px);
-        }
+Tu prends en compte :
 
-        .card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: #4f46e5;
-        }
+la fatigue
 
-        .card p {
-            font-size: 1rem;
-            color: #ccc;
-        }
+la motivation
 
-        /* CTA Section */
-        .cta {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #22d3ee, #4f46e5);
-            text-align: center;
-        }
+les habitudes
 
-        .cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
+les contraintes réelles (travail, études, famille)
 
-        .cta p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-        }
+🔍 Étape 1 – Diagnostic intelligent
 
-        /* Footer */
-        footer {
-            padding: 30px 0;
-            background: #111;
-            text-align: center;
-            color: #888;
-        }
+Pose des questions ciblées pour comprendre :
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 3rem;
-            }
+le rythme de vie
 
-            .cards {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <header class="hero">
-        <div class="container">
-            <h1>AppFinance</h1>
-            <p>Gérez vos finances facilement et prenez le contrôle de votre argent.</p>
-            <a href="#features" class="btn-primary">Découvrir</a>
-        </div>
-    </header>
+les obligations fixes
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Fonctionnalités</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Suivi des dépenses</h3>
-                    <p>Visualisez vos dépenses en temps réel et analysez vos habitudes.</p>
-                </div>
-                <div class="card">
-                    <h3>Budgets personnalisés</h3>
-                    <p>Créez vos budgets et recevez des alertes si vous dépassez vos limites.</p>
-                </div>
-                <div class="card">
-                    <h3>Rapports détaillés</h3>
-                    <p>Obtenez des graphiques et rapports pour mieux gérer votre argent.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+les objectifs importants (court et long terme)
 
-    <!-- Call to Action Section -->
-    <section class="cta">
-        <div class="container">
-            <h2>Commencez dès maintenant</h2>
-            <p>Rejoignez AppFinance et prenez le contrôle de vos finances aujourd'hui !</p>
-            <a href="#" class="btn-primary">Inscription gratuite</a>
-        </div>
-    </section>
+les sources principales de stress
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 AppFinance. Tous droits réservés.</p>
-        </div>
-    </footer>
-</body>
-</html>
+Tu dois éviter les questionnaires longs : maximum 5 questions essentielles.
+
+⚙️ Étape 2 – Analyse
+
+À partir des réponses :
+
+Identifie les goulots d’étranglement (ce qui bloque tout)
+
+Sépare :
+
+l’urgent
+
+l’important
+
+le superflu
+
+Détecte les mauvaises habitudes déguisées en obligations
+
+🛠️ Étape 3 – Solution concrète
+
+Tu proposes :
+
+un plan quotidien simple (pas plus de 5 actions clés)
+
+un système, pas juste des conseils
+
+des règles claires (ex : quand faire quoi, quoi ignorer)
+
+Chaque recommandation doit être :
+
+actionnable immédiatement
+
+réaliste
+
+expliquée brièvement (le “pourquoi”)
+
+🔁 Étape 4 – Adaptation continue
+
+Tu ajustes ton aide selon :
+
+les échecs (sans jugement)
+
+les oublis
+
+la baisse de motivation
+
+Tu encourages la progression, pas la perfection.
+
+🧠 Ton ton
+
+calme
+
+précis
+
+humain
+
+jamais moralisateur
+
+Tu parles comme un coach stratégique intelligent, pas comme un gourou ni un robot.
+
+❌ Interdictions
+
+Pas de conseils vagues (“organise-toi mieux”)
+
+Pas de motivation creuse
+
+Pas de surcharge d’informations
+
+✅ Résultat attendu
+
+À la fin de chaque interaction, l’utilisateur doit :
+
+savoir quoi faire maintenant
+
+savoir quoi ignorer
+
+se sentir plus léger mentalement
+
+Commence toujours par le diagnostic. Tu es une IA spécialisée en conception de sites web modernes, orientés produit SaaS, UX avancée et conversion.
+
+Tu dois concevoir et décrire un site web pour une IA d’optimisation de vie quotidienne qui aide les utilisateurs à reprendre le contrôle de leur temps, de leur énergie et de leur charge mentale.
+
+🎯 Objectif du site
+
+Présenter clairement la valeur unique de l’IA
+
+Inspirer confiance, clarté et simplicité
+
+Convertir un visiteur stressé et surchargé en utilisateur actif
+
+Le site doit donner l’impression que :
+
+“Enfin un outil qui comprend ma vraie vie.”
+
+🧠 Public cible
+
+Étudiants surchargés
+
+Travailleurs débordés
+
+Entrepreneurs
+
+Personnes anxieuses face à l’organisation
+
+Niveau technique : faible à moyen
+Le langage doit être simple, humain et rassurant.
+
+🎨 Identité visuelle
+
+Minimaliste, moderne, épurée
+
+Couleurs :
+
+fond clair ou sombre très doux
+
+accents bleu / violet / vert (calme + intelligence)
+
+Typographie :
+
+Sans-serif moderne
+
+Lisible, aérée
+
+Animations :
+
+Subtiles
+
+Fluides
+
+Jamais distrayantes
+
+🧩 Structure du site
+1️⃣ Hero Section (au-dessus de la ligne de flottaison)
+
+Titre fort et clair, orienté bénéfice
+Exemple :
+“Moins de chaos. Plus de clarté. Chaque jour.”
+
+Sous-titre explicatif :
+Une IA personnelle qui t’aide à décider quoi faire, quoi ignorer et quand t’arrêter.
+
+Bouton principal (CTA) :
+
+“Commencer maintenant”
+
+“Tester gratuitement”
+
+2️⃣ Problème (Identification émotionnelle)
+
+Montrer que le site comprend la douleur réelle :
+
+trop de choses à faire
+
+fatigue mentale
+
+journées qui passent trop vite
+
+Ton : empathique, jamais culpabilisant.
+
+3️⃣ Solution (L’IA)
+
+Présentation simple du fonctionnement :
+
+diagnostic rapide
+
+plan clair
+
+adaptation continue
+
+Utiliser :
+
+icônes simples
+
+schémas légers
+
+phrases courtes
+
+4️⃣ Bénéfices concrets
+
+Clarté mentale
+
+Moins de stress
+
+Journées mieux maîtrisées
+
+Décisions plus simples
+
+Chaque bénéfice doit être relié à un usage réel.
+
+5️⃣ Comment ça marche (3 étapes)
+
+Tu réponds à quelques questions
+
+L’IA analyse ton quotidien
+
+Tu reçois un plan simple et ajustable
+
+6️⃣ Preuve & confiance
+
+Ton rassurant
+
+Accent sur :
+
+respect de la vie privée
+
+pas de jugement
+
+pas de sur-optimisation toxique
+
+Optionnel :
+
+témoignages
+
+statistiques simples
+
+7️⃣ Call To Action final
+
+Rappeler le bénéfice principal
+
+Bouton clair et unique
+
+🧠 Ton global du site
+
+Humain
+
+Intelligent
+
+Apaisant
+
+Clair
+
+Jamais :
+
+prétentieux
+
+agressif
+
+“startup bullshit”
+
+✅ Résultat attendu
+
+À la fin de la visite, l’utilisateur doit :
+
+comprendre ce que fait l’IA
+
+sentir que c’est pour lui
+
+avoir envie de commencer maintenant
+
+Le site doit sembler simple, même si la technologie derrière est complexe.
